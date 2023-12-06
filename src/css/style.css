@@ -1,0 +1,50 @@
+body {
+  background: lightskyblue;
+}
+body #canvas {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(91, 171, 174);
+  width: 700px;
+  height: 300px;
+  margin: 50px auto;
+}
+body #canvas #primary-number,
+body #canvas #secondary-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  width: 125px;
+  height: 125px;
+  box-sizing: border-box;
+}
+body #canvas #primary-number {
+  border: solid 4px green;
+}
+body #canvas #secondary-number {
+  border: solid 4px blue;
+}
+body #canvas #add,
+body #canvas #equal {
+  font-weight: bold;
+  font-size: 40px;
+  padding: 5px;
+}
+body #canvas input {
+  border: solid 2px cyan;
+  width: 150px;
+  height: 30px;
+  padding-left: 25px;
+}
+body #canvas button {
+  width: 100px;
+  height: 35px;
+  margin: 5px;
+  background: rgb(68, 0, 255);
+  color: white;
+  border: 1px solid lightgrey;
+}/*# sourceMappingURL=style.css.map */
